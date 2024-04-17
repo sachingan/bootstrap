@@ -1,0 +1,455 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.header{
+    width: 100%;
+    height:50px;
+    border:0px;
+    padding:0px;
+
+}
+.microsoft_logo{
+    width:200px;
+    height:50px;
+    padding-left:50px;
+    float:left;
+} 
+.nav-link{
+    font-size: 13px;
+}
+.header .microsoft_logo img{
+    width:140px;
+    height:50px;
+    margin-top: 0px ;
+}
+.list{
+    list-style-type: none;
+    padding-top: 20px;
+    overflow:hidden;
+}
+.nav_bar{
+    width: 600px;
+    height:50px;
+    float:left;
+    
+}
+.menuitem{
+    border: 0px;
+    width:80px;
+    text-decoration: none;
+    color:#262626;
+    display:block;
+    text-align: center;
+    float:left;
+    font-size: 14px;
+}
+.menuitem:hover{
+    text-decoration: underline;
+}
+.header-right{
+    width:400px;
+    height:35px;
+    float:left;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.navbar-collapse{
+    width:100%;
+    z-index: 10;
+}
+.nav-item:hover{
+    background-color: rgb(179, 198, 231);
+}
+.all_microsoft{
+    text-decoration: none;
+    color:black;
+    float:left;
+    padding-left: 150px;
+}
+.search_logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: -30px;
+}
+.search_image{
+    
+    width:20px;
+    height:20px;
+}
+.cart_logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: -30px;
+}
+.cart_image{
+    
+    width:20px;
+    height:20px;
+}
+.person_logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: -30px;
+}
+.person_image{
+    
+    width:20px;
+    height:20px;
+}
+.laptops{
+    position:relative;
+}
+.surface_text h4{
+    position :absolute;
+    top:43%;
+    left:62%;
+    font-size: 1.81rem;
+    font-weight: 600;
+    
+    transform: translate( -80%, -80% );
+}
+.surface_text p{
+    position: absolute;
+    top:50%;
+    left:62%;
+    
+    transform: translate( -80%, -80% );
+}
+.laptops_image .btn{
+    position: absolute;
+    top:58%;
+    left:62%;
+    background-color:rgb(17, 106, 179);
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+    transform: translate( -80%, -80% );
+}
+.container{
+    flex-wrap: wrap;
+}
+.laptops_image .btn:hover{
+    background-color: blue;
+}
+.ms_365{
+    padding-left: 30%;
+    float:left;
+}
+.ms_365 img{
+    width:40px;
+    height:40px;
+    margin-left:60px;
+}
+.ms_365 p{
+    padding-left: -100px;
+}
+.xbox{
+    float:left;
+}
+.xbox img{
+    width:40px;
+    height:40px;
+    padding-left: 80px;
+}
+.xbox p{
+    padding-left: 70px;
+}
+.windows11{
+    float:left;
+}
+.windows11 img{
+    width:40px;
+    height:40px;
+    padding-left: 80px;
+}
+.windows11 p{
+    padding-left: 40px;
+}
+.surface_device{
+    float:left;
+}
+.surface_device img{
+    width:40px;
+    height:40px;
+    padding-left: 80px;
+}
+.surface_device p{
+    padding-left: 50px;
+}
+.dummy1{
+    width:100%;
+    height:100px;
+}
+.dummy2{
+    width:100%;
+    height:150px;
+}
+.container2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.laptop1{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.laptop1_text{
+    padding-left: 20px;
+}
+.laptop1 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.laptop1 p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.laptop1 >div .btn1{
+    margin-top: 20px;
+    background-color: rgb(58, 58, 255);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.laptop1 >div .btn1:hover{
+    background-color: rgb(11, 11, 248);
+}
+.laptop2{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.laptop2_text{
+    padding-left: 20px;
+}
+.laptop2 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.laptop2 p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.laptop2 >div .btn2{
+    margin-top: 20px;
+    background-color: rgb(58, 58, 255);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.laptop2 >div .btn2:hover{
+    background-color: rgb(11, 11, 248);
+}
+.laptop3{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.laptop3_text{
+    padding-left: 20px;
+}
+.laptop3 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.laptop3 p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.laptop3 >div .btn3{
+    margin-top: 20px;
+    background-color: rgb(58, 58, 255);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.laptop3 >div .btn3:hover{
+    background-color: rgb(11, 11, 248);
+}
+.laptop4{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.laptop4_text{
+    padding-left: 20px;
+}
+.laptop4 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.laptop4 p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.laptop4 >div .btn4{
+    margin-top: 20px;
+    background-color: rgb(58, 58, 255);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.laptop4 >div .btn4:hover{
+    background-color: rgb(11, 11, 248);
+}
+.laptop4 .for_six_people{
+    margin-top: 50px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.xbox_image_Series{
+    margin: 70px;
+    position: relative;
+}
+.xbox_text h2{
+    position: absolute;
+    top:40%;
+    left:10%;
+    font-weight: 600;
+    font-size: 1.81rem;
+}
+.xbox_text p{
+    position: absolute;
+    top:50%;
+    left :10%;
+}
+.btn_xbox{
+    position: absolute;
+    top:60%;
+    left:10%;
+    padding: 10px;
+    background-color: rgb(78, 78, 250);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.for_business{
+    font-size: 1.81rem;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.laptop{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.laptop p{
+    padding-top: 20px;
+}
+.laptop >div .btn5{
+    padding: 10px;
+    background-color: rgb(23, 85, 255);
+    color: white;
+    cursor: pointer;
+}
+.laptop >div .btn5:hover{
+    background-color: blue;
+}
+.laptop .laptop_text{
+    padding:20px;
+}
+.dummy3{
+    width:100%;
+    height:100px;
+}
+.page_handles{
+    display:flex;
+    justify-content: flex-start;
+}
+.page_handles p{
+    font-size: 1rem;
+    font-weight:500 ;
+    padding-left: 20px;
+    
+}
+.page_handles .logo{
+    height:30px;
+    width:30px;
+}
+.backtotop{
+    padding:10px 20px;
+    float:right;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.dummy4{
+    width:100%;
+    height:70px;
+}
+.footer1{
+    width:100%;
+    height:auto;
+    background-color:rgb(235, 234, 234);
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer1 h4{
+    color: #616161;
+    padding: 10px;
+    text-align: left;
+}
+.col1 a{
+    color: #616161;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 5px;
+    text-align: left;
+}
+.col1 a:hover{
+    text-decoration: underline;
+}
+.footer2{
+    width:100%;
+    height:50px;
+    background-color:rgb(235, 234, 234);
+}
+.left_footer{
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content:space-between;
+    font-size: 12px;
+    text-decoration: none; 
+}
+.left_footer >div >a{
+    text-decoration: none;
+    color: #616161;
+}
+.left_footer >div >a:hover{
+    text-decoration: underline;
+}
+
+.right_footer{
+    width: 40%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+.right_footer >div >a{
+    text-decoration: none;
+    color: #616161;
+
+}
+.right_footer >div >a:hover{
+    text-decoration: underline;
+}
+.earth_image{
+    width:30px;
+    height:30px;
+}
